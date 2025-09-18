@@ -1,0 +1,107 @@
+
+nav{ height: 70px;
+    width: 1110px;
+    margin: auto;
+
+    background-color: rgb(37, 35, 33);
+}
+nav ul{
+    margin-left: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    color: #ebdbdb;
+    font-size:larger;
+    justify-content: center;
+    justify-items:auto;
+    margin: 40px;
+    margin-bottom: 60px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.gorashi {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  gap: 3rem;
+}
+
+
+.content {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.sudan {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background: #2ecc40;           
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.sudan:hover {
+  background: #27ae34;
+}
+
+.brands {
+  margin-top: 3rem;
+}
+.brands p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #999;
+}
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.brand {
+  border: 1px solid #222;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  background: #111;
+  color: #ccc;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #111;
+}
+
